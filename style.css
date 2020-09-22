@@ -1,0 +1,17 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    display: block;
+    background-color: powderblue;
+    height: 146px;
+
+}
+h1 {
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
