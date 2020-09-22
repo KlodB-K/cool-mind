@@ -1,0 +1,11 @@
+{
+  "name": "cool-mind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KlodB-K/cool-mind.git",
+  "author": "Klaudia Baranska",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.1.2"
+  }
+}
