@@ -1,17 +1,18 @@
 body {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
-#header {
-    display: block;
-    background-color: powderblue;
-    height: 146px;
 
+#header {
+  display: block;
+  background-color: powderblue;
+  height: 146px;
 }
+
 h1 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
