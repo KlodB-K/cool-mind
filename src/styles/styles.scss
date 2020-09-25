@@ -1,6 +1,15 @@
+<<<<<<< HEAD:style.css
 
 * {
   box-sizing: border-box;
+=======
+$light-grey: #fafafa;
+$blue: #3030ff;
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+>>>>>>> bf6027833cda77a7d78377b05883e329bdce02cd:src/styles/styles.scss
 }
 
 body {
@@ -9,7 +18,7 @@ body {
 
 .header {
   display: block;
-  background-color: powderblue;
+  background-color: $light-grey;
   height: 146px;
   margin: 20px;
   padding:20px 0 0 20px;
