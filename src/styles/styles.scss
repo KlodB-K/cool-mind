@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HEAD:style.css * {
   box-sizing: border-box;
   $light-grey: #fafafa;
@@ -9,6 +10,21 @@ body {
   margin-right: auto;
 }
 bf6027833cda77a7d78377b05883e329bdce02cd:src/styles/styles.scss .header {
+=======
+$light-grey: #fafafa;
+$blue: #3030ff;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+>>>>>>> d09a72c6104840916ae38b43786adeb6e7be434a
   display: block;
   background-color: $light-grey;
   height: 146px;
