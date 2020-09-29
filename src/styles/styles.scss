@@ -10,12 +10,10 @@ body {
   padding: 0;
 }
 
-.header {
-  display: block;
-  background-color: $light-grey;
-  height: 146px;
-  margin: 20px;
-  padding: 20px 0 0 20px;
+select {
+  border: none;
+  background-color: transparent;
+  margin: 15px;
 }
 
 h1 {
@@ -26,12 +24,44 @@ li {
   list-style-type: none;
 }
 
+.header {
+  display: block;
+  background-color: $light-grey;
+  height: 146px;
+  margin: 20px;
+  padding: 20px 0 0 20px;
+}
+
 .list li {
   text-transform: uppercase;
 }
 
-select {
-  border: none;
-  background-color: transparent;
-  margin: 15px;
+.box {
+  width: 400px;
+  height: 312px;
+  border: 1px solid lightgray;
+  display: inline-block;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 30px;
+  position: relative;
+  margin-right: 30px;
+}
+
+.box img {
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+
+.box h3 {
+  float: left;
+  position: relative;
+  left: 20px;
+  font-size: 32px;
+}
+
+.box p {
+  float: left;
+  font-size: 24px;
 }
