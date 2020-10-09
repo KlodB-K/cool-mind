@@ -4,34 +4,54 @@
 <head>
   <title>COOL MIND</title>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
+  <!--Header section-->
   <div class="header">
-    <figure class="logo"></figure>
-    <img src="img/logo.png">
-    <select class="select">
-      <option>EN</option>
-      <option>PL</option>
-      <option>DE</option>
-    </select>
+    <div class="logo">
+      <img src="img/Subtract.png">
+      <p>Cool mind</p>
+    </div>
+    <div class="language">
+      <select>
+        <option>EN</option>
+        <option>PL</option>
+        <option>DE</option>
+      </select>
+    </div>
+  </div>
+  <!--need to add hamburger menu-->
   </div>
 
-  <div class="offer">
-    <h1>We help digitals <br />producte evolve</h1>
-    <p>We are the branding and web design studio based in Portland, OR. We love playful type, bold colors and
-      joyful experience.</p>
-    <form action="http://www.jakaswitryna.com/">
-      <input placeholder=" Your email">
-      <button>Get offer</button>
-      <p>*Let us contact you</p>
-      <!--Czy to powinien być podpis pod inputem?-->
-    </form>
+  <div class="heropage">
+    <div class="herotext">
+      <h1>We help digitals producte evolve</h1>
+      <p>We are the branding and web design studio based in Portland, OR. We love playful type, bold colors and joyful
+        experience.</p>
+      <form action=”http://www.jakaswitryna.com/”>
+        <input placeholder="Your email">
+        <button>Get offer</button>
+        <!--<div class="contact-btn"><a>Get offer</a>-->
+        <p>*Let us contact you</p>
+        <!--Czy to powinien być podpis pod inputem?-->
+      </form>
+    </div>
+    <div class="heroimg">
+      <img src="img/heroimg.png">
+    </div>
   </div>
 
-  <div class="expertise">
+  <div class="blur">
+    <!--no content-->
+  </div>
+
+
+  <div class="special">
     <h2>Special expertise from us</h2>
     <div class="box">
       <img src="img/website.png">
@@ -39,48 +59,68 @@
       <p>We partner with you to create custom websites that convert and leaves the user smiling</p>
     </div>
     <div class="box">
-      <img src="img/marketing.png">
-      <h3>Marketing </br>Strategic</h3>
+      <img src="img/marketing.png" width="60px" height="60px">
+      <h3>Marketing Strategic</h3>
       <p>We partner with you to create custom websites that convert and leaves the user smiling</p>
     </div>
     <div class="box">
-      <img src="img/mobileapps.png">
+      <img src="img/mobileapps.png" width="60px" height="60px">
       <h3>Mobile Apps</h3>
-      <p>We partner with you to create custom websites that convert and leaves the user smiling</p>
+      <p>We partner with you to <span class="create">create</span>custom websites that convert and leaves the user
+        smiling
+      </p>
     </div>
   </div>
 
   <div class="design">
     <div class="strategic">
-      <img src="img/strategic.png">
-      <h2>Strategic design and engineering for global leading brands</h2>
-      <p>strategic design and engineering agency with an uncompromised commitment to quality and the generation of
-        true value.</p>
+      <div class="strategic-img">
+        <img src="img/strategic.png" width="300px" height="280px">
+      </div>
+      <div class="startegic-text">
+        <h2>Strategic design and engineering for global leading brands</h2>
+        <p>strategic design and engineering agency with an uncompromised commitment to quality and the generation of
+          true
+          value.</p>
+      </div>
     </div>
-
-    <h2>Optimaze design and engineering for global leading brands</h2>
-    <p>strategic design and engineering agency with an uncompromised commitment to quality and the generation of
-      true value.</p>
-    <img src="img/optimaze.png">
+    <div class="optimaze">
+      <div class="optimaze-text">
+        <h2>Optimaze design and engineering for global leading brands</h2>
+        <p>strategic design and engineering agency with an uncompromised commitment to quality and the generation of
+          true
+          value.</p>
+      </div>
+      <div class="optimaze-img">
+        <img src="img/optimaze.png" width="300px" height="280px">
+      </div>
+    </div>
   </div>
 
-  <div class="about us">
-    <h2>About Us</h2>
-    <h1>29 yers of growth</h1>
-    <p>We are an independent IT consultancy, set up in 1991, operatig across Europe with over 700 highly qualified
-      people delivering for our clients every day. Since then, we have been working with clients from many
-      sectors. Retail, engineering, pharmaceutical, real estate, transportation, utilities, financial, are some of
-      them. We are Digital Transformation Specialists who strive to be a partner of choice.</p>
-    <div id="numbers">
-      <div>
-        <h4>100+</h4>
-        <p>Skilled and motivated stuff</p>
+  <div class="about-us">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <h1>29 years of growth</h1>
+      <p>We are an independent IT consultancy, set up in 1991, operating across Europe with over 700 highly qualified
+        people delivering for our clients every day. Since then, we have been working with clients from many sectors.
+        Retail, engineering, pharmaceutical, real estate, transportation, utilities, financial, are some of them. We are
+        Digital Transformation Specialists who strive to be a partner of choice.</p>
+    </div>
+    <div class="numbers">
+      <div id="number1" class="number-box">
+        <div class="numbers-text">
+          <h4>100+</h4>
+          <p>Skilled and motivated stuff</p>
+        </div>
+        <div class="numbers-img">
+          <img src="img/100.png">
+        </div>
       </div>
-      <div>
+      <div id="number2" class="number-box">
         <h4>80+</h4>
         <p>Succesful projects</p>
       </div>
-      <div>
+      <div id="number3" class="number-box">
         <h4>28+</h4>
         <p>Client worldwide</p>
       </div>
@@ -89,55 +129,70 @@
 
   <div class="team">
     <h1>Say hello to my Great Team</h1>
-    <div class="member">
-      <!--do wywalenia?-->
-      <figure>
-        <img src="img/DavidAninowsky.jpg" alt="David Aninowsky photo">
-        <br />
-        <figcaption>David Aninowsky<br />Ceo / Founder</figcaption>
-      </figure>
-    </div>
-    <figure>
-      <img src="img/DavidGucker.jpg" alt="David Gucker photo">
-      <br />
-      <figcaption>David Gucker<br />Chief Operating Officer</figcaption>
-    </figure>
-    <figure>
-      <img src="img/AnthonyQuon.jpg" alt="Athony Quon photo">
-      <br />
-      <figcaption>Anthony Quon<br />Chief Information Officer</figcaption>
-    </figure>
+    <div class="members">
+      <div class="member">
+        <figure>
+          <img src="img/Aninowsky.png" alt="David Aninowsky photo">
+          <br />
+          <figcaption>David Aninowsky<br />Ceo / Founder</figcaption>
+        </figure>
+      </div>
+      <div class="member">
+        <figure>
+          <img src="img/Gucker.png" alt="David Gucker photo">
+          <br />
+          <figcaption>David Gucker<br />Chief Operating Officer</figcaption>
+        </figure>
+      </div>
+      <div class="member">
+        <figure>
+          <img src="img/Quon.png" alt="Athony Quon photo">
+          <br />
+          <figcaption>Anthony Quon<br />Chief Information Officer</figcaption>
+        </figure>
+      </div>
 
-    <footer class="footer">
-      <div id="adress">
-        <p>Warehouse Society, 234<br />
-          Bahagia Ave Street PRBW 29281<br />
-          info@warehouse.project<br />
-          1-232-3434 (Main)</p>
+
+      <div class="footer">
+        <div class="adress">
+          <p>Warehouse Society, 234<br />
+            Bahagia Ave Street PRBW 29281<br />
+            info@warehouse.project<br />
+            1-232-3434 (Main)</p>
+        </div>
+        <div class="links">
+          <ul class="list">
+            <li>Home</li>
+            <li>Work</li>
+            <li>Blog</li>
+            <li>About</li>
+            <li>Services</li>
+          </ul>
+        </div>
+        <div class="social">
+          <ul>
+            <li>
+              <a href="https://facebook.com/coolmind"><img src="img/fb.png" /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/coolmind"><img src="img/twit.png" /></a>
+            </li>
+            <li>
+              <a href="https://instagram.com/coolmind"><img src="img/insta.png" /></a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="links">
-        <ul class="list">
-          <li>Home</li>
-          <li>Work</li>
-          <li>Blog</li>
-          <li>About</li>
-          <li>Services</li>
-        </ul>
-      </div>
-      <div id="social">
-        <ul>
-          <li>
-            <a href="https://facebook.com/coolmind"><img src="img/fb.png" /></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/coolmind"><img src="img/twit.png" /></a>
-          </li>
-          <li>
-            <a href="https://instagram.com/coolmind"><img src="img/insta.png" /></a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"></script>
