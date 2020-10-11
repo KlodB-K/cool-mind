@@ -26,6 +26,15 @@ h2 {
   color: black;
 }
 
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: smaller;
+  color: rgba(39, 39, 39, 0.6);
+}
+
 /*
 -----Header Menu-----
 */
@@ -117,12 +126,22 @@ h2 {
   max-width: 715px;
 }
 
+.blur {
+  position: absolute;
+  width: 1493px;
+  height: 252px;
+  float: right;
+  top: 730px;
+  background: #fff;
+  filter: blur(50px);
+}
+
 /*
 -----Special-----
 */
 
 .expertise {
-  margin: 240px auto 40px;
+  margin: 140px auto 40px;
   text-align: center;
 }
 
@@ -130,6 +149,7 @@ h2 {
   width: 1440px;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .box {
@@ -168,17 +188,149 @@ h2 {
   margin-top: 10px;
 }
 
-.strategic {
-  display: inline-block;
+/*
+-----Design-----
+*/
+
+.design {
+  margin-top: 17px;
+  width: 1440px;
+}
+
+.strategic,
+.optimaze {
+  display: flex;
+  justify-content: center;
+}
+
+.optimaze {
+  position: relative;
+  margin: 50px;
+}
+
+.strategic h3,
+.optimaze h3 {
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.strategic h2,
+.optimaze h2 {
+  font-weight: bold;
 }
 
 .strategic img {
   float: left;
 }
 
+.optimaze img {
+  display: flex;
+  justify-self: right;
+}
+
+.strategic-text,
+.optimaze-text {
+  width: 650px;
+  position: relative;
+}
+
+.strategic-text {
+  top: 20px;
+  margin-left: 50px;
+}
+
+.optimaze-text {
+  margin-right: 50px;
+}
+
+/*
+-----About us-----
+*/
+
+.about-bg {
+  display: flex;
+  background-color: rgba(48, 48, 255, 0.2);
+  margin: 0 -9999rem;
+
+  /*
+  add back negative margin value
+  */
+
+  padding: 0.25rem 9999rem;
+  height: 729px;
+}
+
+.about-us {
+  max-width: 1440px;
+  margin: 0, auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.about-text {
+  max-width: 568px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 370px;
+  width: 321px;
+}
+
+.number-box {
+  display: flex;
+  width: 321px;
+  height: 110px;
+  background-color: #fafafa;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.number-box h2 {
+  color: #3030ff;
+  font-weight: 500;
+}
+
+#number1 {
+  position: absolute;
+  top: 2556px;
+}
+
+#number2 {
+  position: absolute;
+  top: 2686px;
+}
+
+#number3 {
+  position: absolute;
+  top: 2816px;
+}
+
+#number1,
+#number2,
+#number3 {
+  border-radius: 20px;
+}
+
+.numbers-text {
+  float: left;
+}
+
+.numbers-img {
+  top: 50%;
+  float: right;
+  align-self: center;
+}
+
 /*
 -----Team-----
 */
+.team {
+  position: static;
+  margin: 150px, 0;
+}
 
 .rectangles {
   display: flex;
@@ -213,6 +365,10 @@ h2 {
 */
 
 .footer {
+  display: flex;
+}
+
+.footer-bg {
   max-width: 1920px;
   height: 439px;
   background: #fafafa;
@@ -223,30 +379,54 @@ h2 {
   */
 
   padding: 0.25rem 9999rem;
-  display: flex;
+  position: absolute;
 }
 
 .footer-content {
-  width: 1068px;
   height: 271px;
-  position: relative;
+  position: absolute;
   margin: 84px 272px 84px 100px;
   display: flex;
 }
 
 .adress {
-  justify-self: start;
+  position: absolute;
+  font-size: 18px;
+}
+
+.links {
+  position: relative;
+  margin-left: 685px;
 }
 
 .social {
-  justify-self: end;
+  position: relative;
+  margin-left: 210px;
 }
 
 .list li {
   text-transform: uppercase;
   list-style-type: none;
+  font-size: 18px;
+  margin: 20px;
 }
 
 .social li {
   list-style-type: none;
+  margin: 20px;
+}
+
+.line {
+  position: absolute;
+  width: 2px;
+  height: 271px;
+  background-color: #3030ff;
+}
+
+#line1 {
+  margin-left: 677px;
+}
+
+#line2 {
+  margin-left: 998px;
 }
