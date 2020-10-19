@@ -8,6 +8,9 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -37,11 +40,12 @@
       <p>We are the branding and web design studio based in Portland, OR. We love playful type, bold colors and joyful
         experience.</p>
       <form action=”http://www.jakaswitryna.com/”>
-        <input placeholder="Your email">
-        <button>Get offer</button>
-        <!--<div class="contact-btn"><a>Get offer</a>-->
-        <p>*Let us contact you</p>
-        <!--Czy to powinien być podpis pod inputem?-->
+        <div class="placeholder">
+          <input placeholder="Your email">
+          <div class="contact-btn"><a>Get offer</a>
+          </div>
+        </div>
+        <h4>*Let us contact you</h4>
       </form>
     </div>
     <div class="heroimg">
@@ -105,46 +109,45 @@
   </div>
 
   <div class="about-us">
-    <div class="about-bg">
-      <div class="about-text">
-        <h2>About Us</h2>
-        <h1>29 years of growth</h1>
-        <h3>We are an independent IT consultancy, set up in 1991, operating across Europe with over 700 highly qualified
-          people delivering for our clients every day. Since then, we have been working with clients from many sectors.
-          Retail, engineering, pharmaceutical, real estate, transportation, utilities, financial, are some of them. We
-          are
-          Digital Transformation Specialists who strive to be a partner of choice.</h3>
+    <div class="about-text">
+      <h2>About Us</h2>
+      <h1>29 years of growth</h1>
+      <h3>We are an independent IT consultancy, set up in 1991, operating across Europe with over 700 highly qualified
+        people delivering for our clients every day. Since then, we have been working with clients from many sectors.
+        Retail, engineering, pharmaceutical, real estate, transportation, utilities, financial, are some of them. We
+        are
+        Digital Transformation Specialists who strive to be a partner of choice.</h3>
+    </div>
+    <div class="numbers">
+      <div id="number1" class="number-box">
+        <div class="numbers-text">
+          <h2>100+</h2>
+          <h4>Skilled and motivated stuff</h4>
+        </div>
+        <div class="numbers-img">
+          <img src="img/100.png">
+        </div>
       </div>
-      <div class="numbers">
-        <div id="number1" class="number-box">
-          <div class="numbers-text">
-            <h2>100+</h2>
-            <h4>Skilled and motivated stuff</h4>
-          </div>
-          <div class="numbers-img">
-            <img src="img/100.png">
-          </div>
+      <div id="number2" class="number-box">
+        <div class="numbers-text">
+          <h2>80+</h4>
+            <h4>Succesful projects</h4>
         </div>
-        <div id="number2" class="number-box">
-          <div class="numbers-text">
-            <h2>80+</h4>
-              <h4>Succesful projects</h4>
-          </div>
-          <div class="numbers-img">
-            <img src="img/80.png">
-          </div>
+        <div class="numbers-img">
+          <img src="img/80.png">
         </div>
-        <div id="number3" class="number-box">
-          <div class="numbers-text">
-            <h2>28+</h2>
-            <h4>Clients worldwide</h4>
-          </div>
-          <div class="numbers-img">
-            <img src="img/28.png">
-          </div>
+      </div>
+      <div id="number3" class="number-box">
+        <div class="numbers-text">
+          <h2>28+</h2>
+          <h4>Clients worldwide</h4>
+        </div>
+        <div class="numbers-img">
+          <img src="img/28.png">
         </div>
       </div>
     </div>
+  </div>
   </div>
 
   <div class="team">
@@ -154,22 +157,28 @@
         <div id="photo1" class="photo">
           <figure>
             <img src="img/Aninowsky.png" alt="David Aninowsky photo">
-            <br />
-            <figcaption>David Aninowsky<br />Ceo / Founder</figcaption>
+            <figcaption>
+              <h3>David Aninowsky</h3>
+              <h4>Ceo / Founder</h4>
+            </figcaption>
           </figure>
         </div>
         <div id="photo2" class="photo">
           <figure>
             <img src="img/Gucker.png" alt="David Gucker photo">
-            <br />
-            <figcaption>David Aninowsky<br />Ceo / Founder</figcaption>
+            <figcaption>
+              <h3>David Aninowsky</h3>
+              <h4>Ceo / Founder</h4>
+            </figcaption>
           </figure>
         </div>
         <div id="photo3" class="photo">
           <figure>
             <img src="img/Quon.png" alt="Athony Quon photo">
-            <br />
-            <figcaption>David Aninowsky<br />Ceo / Founder</figcaption>
+            <figcaption>
+              <h3>David Aninowsky</h3>
+              <h4>Ceo / Founder</h4>
+            </figcaption>
           </figure>
         </div>
       </div>
@@ -183,20 +192,22 @@
   </div>
 
   <div class="footer">
-    <div class="footer-bg"></div>
     <div class="footer-content">
-      <div id="adress" class="adress">
-        <div class="logo">
-          <img src="img/Subtract.png">
-          <p>Coolmind</p>
+      <div class="footer-adress">
+        <div class="logo-bg">
+          <div class="logo-img">
+            <img src="img/Subtract.png"></div>
+          <div class="logo-text">
+            <p>Coolmind</p>
+          </div>
         </div>
-        <div></div>
-        <h4>Warehouse Society, 234<br />
-          Bahagia Ave Street PRBW 29281<br />
-          info@warehouse.project<br />
-          1-232-3434 (Main)</h4>
+        <div id="adress" class="adress">
+          <h4>Warehouse Society, 234<br />
+            Bahagia Ave Street PRBW 29281<br />
+            info@warehouse.project<br />
+            1-232-3434 (Main)</h4>
+        </div>
       </div>
-      <div id="line1" class="line"></div>
       <div class="links">
         <ul class="list">
           <li>Home</li>
@@ -206,7 +217,6 @@
           <li>Services</li>
         </ul>
       </div>
-      <div id="line2" class="line"></div>
       <div class="social">
         <ul>
           <li>
@@ -221,6 +231,7 @@
         </ul>
       </div>
     </div>
+  </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
