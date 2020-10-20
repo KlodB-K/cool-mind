@@ -135,7 +135,12 @@ input {
   color: #c5c5c5;
 }
 
+.input:focus {
+  outline: none;
+}
+
 .contact-btn {
+  cursor: pointer;
   width: 158px;
   background: #3030ff;
   border-radius: 31.5px;
@@ -145,6 +150,10 @@ input {
   text-align: center;
   position: relative;
   right: 150px;
+}
+
+.contact-btn:hover {
+  opacity: 0.6;
 }
 
 .heroimg {
@@ -493,4 +502,22 @@ figcaption {
   list-style-type: none;
   padding: 10px;
   margin-left: 127px;
+}
+
+/* ---Mobile--- */
+
+@media (max-width: 768px) {
+  .heropage {
+    flex-direction: column;
+  }
+
+  .box {
+    margin: 45px 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .heropage .boxes .design .about-us .team {
+    flex-direction: column;
+  }
 }
