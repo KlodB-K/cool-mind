@@ -99,6 +99,41 @@ h4 {
   align-self: center;
 }
 
+.menu-list {
+  background-color: #fff;
+  border: solid 1px #c5c5c5;
+  height: 193px;
+  width: 150px;
+  position: absolute;
+  text-align: center;
+  margin-right: 100px;
+}
+
+/* .menu-list-none {
+  background-color: #fff;
+  border: solid 1px #c5c5c5;
+  height: 192px;
+  width: 150px;
+  position: absolute;
+  text-align: center;
+  margin-right: 100px;
+  display: none;
+} */
+
+.menu-list li {
+  list-style-type: none;
+  text-transform: uppercase;
+  color: #c5c5c5;
+  font-size: 18px;
+  padding: 10px;
+  border-bottom: #c5c5c5 dashed 1px;
+  cursor: pointer;
+}
+
+.menu-list li:hover {
+  color: gray;
+}
+
 /*
 -----Hero Page-----
 */
@@ -159,16 +194,6 @@ input {
 .heroimg {
   align-self: auto;
   max-width: 715px;
-}
-
-.blur {
-  position: absolute;
-  width: 2000px;
-  height: 252px;
-  float: right;
-  top: 740px;
-  background: #fff;
-  filter: blur(50px);
 }
 
 /*

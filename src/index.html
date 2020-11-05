@@ -22,16 +22,34 @@
         <p>Coolmind</p>
       </div>
       <div class="language">
-        <select>
-          <option>EN</option>
-          <option>PL</option>
-          <option>DE</option>
+        <select onchange="window.location=this.value">
+          <option value="https://en.com">EN</option>
+          <option value="https://pl.com">PL</option>
+          <option value="https://de.com">DE</option>
+
         </select>
+
+        <script>
+          function loadNewPage(){
+              window.location.replace(this.value); 
+          }
+          </script>
+          
       </div>
+      <div clas="menu">
       <div class="icon-menu">
         <img src="img/Icon-Menu.png">
+        <div id="menu-list" class="menu-list">
+          <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Team</li>
+            <li>Contact</li>
+          </ul>
+        </div>
       </div>
     </div>
+  </div>
   </div>
 
   <div class="heropage">
@@ -52,11 +70,6 @@
       <img src="img/heroimg.png">
     </div>
   </div>
-
-  <div class="blur">
-    <!--no content-->
-  </div>
-
 
   <div class="special">
     <div class="expertise">
@@ -156,7 +169,7 @@
       <div class="photos">
         <div id="photo1" class="photo">
           <figure>
-            <img src="img/Aninowsky.png" alt="David Aninowsky photo">
+            <img src="img/david-aninowsky.jpg" alt="David Aninowsky photo">
             <figcaption>
               <h3>David Aninowsky</h3>
               <h4>Ceo / Founder</h4>
@@ -165,7 +178,7 @@
         </div>
         <div id="photo2" class="photo">
           <figure>
-            <img src="img/Gucker.png" alt="David Gucker photo">
+            <img src="img/david-gucker.jpg" alt="David Gucker photo">
             <figcaption>
               <h3>David Aninowsky</h3>
               <h4>Ceo / Founder</h4>
@@ -174,7 +187,7 @@
         </div>
         <div id="photo3" class="photo">
           <figure>
-            <img src="img/Quon.png" alt="Athony Quon photo">
+            <img src="img/anthony-quon.jpg" alt="Athony Quon photo">
             <figcaption>
               <h3>David Aninowsky</h3>
               <h4>Ceo / Founder</h4>
