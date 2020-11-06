@@ -99,7 +99,8 @@ h4 {
   align-self: center;
 }
 
-.menu-list {
+/*
+.menu-list-visible {
   background-color: #fff;
   border: solid 1px #c5c5c5;
   height: 193px;
@@ -107,9 +108,11 @@ h4 {
   position: absolute;
   text-align: center;
   margin-right: 100px;
+  display: block;
 }
+*/
 
-/* .menu-list-none {
+.menu-list {
   background-color: #fff;
   border: solid 1px #c5c5c5;
   height: 192px;
@@ -118,7 +121,7 @@ h4 {
   text-align: center;
   margin-right: 100px;
   display: none;
-} */
+}
 
 .menu-list li {
   list-style-type: none;
