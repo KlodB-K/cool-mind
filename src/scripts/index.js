@@ -6,7 +6,6 @@ if (process.env.NODE_ENV === "development") {
 
 console.log("Hello")
 
-window.onload = init;
 function init() {
   var button = document.getElementById("hamburger");
   button.onclick = handleButtonClick;
@@ -20,3 +19,19 @@ function handleButtonClick() {
     menu.style.display = "block";
   }
 }
+
+  const btn = document.querySelector("contact-btn")
+  btn.addEventListener("click", "keyup", function(event) {
+    if (event.keyCode === 13) {
+    }
+  })
+writeThanks();
+function thanksForSubmit() {
+  document.querySelector("form").innerHTML = `
+    <div class ="thanks">
+      <p>Thanks! Check your mailbox!</p>
+    </div>
+    `;
+};
+
+

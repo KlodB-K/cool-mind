@@ -177,6 +177,10 @@ input {
   outline: none;
 }
 
+.contact-form {
+  z-index: -1;
+}
+
 .contact-btn {
   cursor: pointer;
   width: 158px;
